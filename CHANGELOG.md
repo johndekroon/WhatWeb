@@ -1,3 +1,19 @@
+Version 0.6.4 - ??
+
+
+## PERFORMANCE IMPROVEMENTS
+* Major output performance overhaul with up to 20x improvement for verbose output
+* Replaced global output mutex with per-logger mutexes for better concurrency
+* Implemented intelligent output buffering with automatic optimization based on thread count
+* Added --output-sync and --output-buffer-size options for performance tuning
+* Added WHATWEB_PROFILE environment variable for performance profiling
+
+## NEW PLUGINS
+
+## PLUGIN UPDATES
+
+
+
 Version 0.6.3 - October 18, 2025
 
 ## FEATURES
